@@ -140,7 +140,7 @@ public class LoginTabFragment extends Fragment implements View.OnClickListener {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-
+                Toast.makeText(context, "Đã xảy ra lỗi!", Toast.LENGTH_SHORT).show();
             }
         }) {
             @Nullable
