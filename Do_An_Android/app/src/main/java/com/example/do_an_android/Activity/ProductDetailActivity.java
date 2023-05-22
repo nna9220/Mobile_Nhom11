@@ -98,6 +98,7 @@ public class ProductDetailActivity extends AppCompatActivity implements View.OnC
             priceDiscountProductDetail.setText(Support.ConvertMoney(productModel.getPrice()));
             priceProductDetail.setText("");
             unitPriceProductDetail.setText("");
+            
         }
     }
 
